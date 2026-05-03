@@ -70,3 +70,6 @@ body {
 h1 {
   text-align: center;
 }
+body {
+  background: pink !important;
+}
