@@ -63,3 +63,10 @@ footer {
   text-align: center;
   padding: 24px;
 }
+body {
+  background: linear-gradient(#fdfaf6, #f4efe9);
+}
+
+h1 {
+  text-align: center;
+}
