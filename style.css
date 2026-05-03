@@ -1,0 +1,65 @@
+:root {
+  --bg: #FBF7F0;
+  --text: #222222;
+  --heading: #3A2A1A;
+  --accent: #D9C5A3;
+  --footer-bg: #3A2A1A;
+  --footer-text: #FBF7F0;
+  color-scheme: light;
+}
+
+html,
+body {
+  background-color: #FBF7F0 !important;
+  color: #222222 !important;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.banner {
+  background-color: var(--accent);
+  color: var(--text);
+  padding: 12px 24px;
+  text-align: center;
+}
+
+.container {
+  max-width: 720px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+h1 {
+  color: var(--heading);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: var(--heading);
+  font-size: 1.6rem;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  text-align: center;
+  padding: 24px;
+}
